@@ -2,11 +2,11 @@
   border: 1px solid red;
   display: flex;
   flex-wrap: wrap;
-  width: 140px;
+  width: 280px;
 } 
 .grid div, .grid span{
-  height: 18px;
-  width: 18px;
+  height: 38px;
+  width: 38px;
   border: 1px solid red;
 }
 
