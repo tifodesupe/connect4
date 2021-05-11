@@ -89,6 +89,9 @@ for(let i = 0; i < cuadrados.length; i++){
     }
     if (cuadrados[i + 7].classList.contains("taken")) {
       cuadrados[i].classList.add("taken")
+      if (document.querySelectorAll(".taken").length === cuadrados.length) {
+        alert("Nadie ganó")
+      }
       cuadrados[i].classList.add("jugador-" + jugadorActual)
       if(jugadorActual === "azul"){
         jugadorActual = "verde"
